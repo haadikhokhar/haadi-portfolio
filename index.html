@@ -3,28 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Haadi Khokhar Portfolio</title>
-
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
-  <!-- CSS LINK -->
+  <title>Haadi Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
+  <!-- Logo Top -->
+  <div class="logo">Haadi Creations</div>
 
-  <!-- HERO SECTION -->
-  <section id="hero">
-    <h1>Haadi Khokhar</h1>
-    <h2>I am a Creative Designer</h2>
+  <!-- Header -->
+  <header>
+    <h1 class="neon-text">↳卄αᴀᴅⁱ↹ᴋ卄ᝪkнαɾ</h1>
+    <p class="shortline neon-text">Student, Computer Science | Developer & Designer</p>
+    <nav>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+  </header>
 
-    <div class="cta">
-      <a href="#" class="whatsapp-btn">Contact Me</a>
-    </div>
+  <!-- About Section -->
+  <section id="about">
+    <h2 class="section-title neon-text">About Me</h2>
+    <p class="about-text">I have a wide range of creative skills: I can resing songs, do voice overs, edit videos, create YouTube thumbnails, and design logos. Passionate about making professional and eye-catching content with creativity and style.</p>
   </section>
 
-  <!-- ABOUT -->
-  <section id="about">
-    <div class="container">
-      <
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2 class="section-title neon-text">Skills</h2>
+    <ul class="skills-list">
+      <li>Songs Re-singing</li>
+      <li>Voice Over</li>
+      <li>Video Editing</li>
+      <li>YouTube Thumbnails</li>
+      <li>Logo Design</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2 class="section-title neon-text">Contact</h2>
+    <p>Email: <a href="mailto:technicalhaadi@gmail.com" class="neon-text">technicalhaadi@gmail.com</a></p>
+    <p>WhatsApp: <a href="https://wa.me/923144353501" target="_blank" class="whatsapp-btn"><i class="fab fa-whatsapp"></i></a></p>
+    <p>Social Media: Insta / FB <span class="coming-soon">Coming Soon</span></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p class="footer-text">Created by Haadi Khokhar</p>
+  </footer>
+
+  <script>
+    // Neon glow animation on scroll
+    window.addEventListener('scroll', () => {
+      document.body.style.backgroundPositionY = window.scrollY * 0.5 + 'px';
+    });
+  </script>
+</body>
+</html>
